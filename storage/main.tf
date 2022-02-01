@@ -2,7 +2,7 @@ resource "google_storage_bucket" "fortify-eva" {
   name = "fortify-eva"
   storage_class = "STANDARD"
   location = "US-WEST1"
-}
+
 
 labels = {
     "env" = "fortify_env"
@@ -20,3 +20,4 @@ uniform_bucket_level_access = true
             storage_class = "COLDLINE"
         }
     }
+}
