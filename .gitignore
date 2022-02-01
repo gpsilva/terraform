@@ -5,5 +5,7 @@
 *.tfstate
 *.tfstate.*
 
-#
+
+# provider files
+*provider.tf
 
